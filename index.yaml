@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-elasticsearch:
   - appVersion: 2.3.2
-    created: 2019-01-02T18:42:30.245170181Z
+    created: 2019-01-02T18:58:18.57185919Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: 4e048574a3c00b04fd0fd1ecd00353f6187c5d28d0e4e49b01511a2da5241902
+    digest: 2d37b8cb7cc35fe43c4913571483427dde64f5eff5c9a85ca1d1ea0642f3bb96
     engine: gotpl
     home: https://www.fluentd.org/
     icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
@@ -26,4 +26,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.1.0.tgz
     version: 2.1.0
-generated: 2019-01-02T18:42:30.244084724Z
+generated: 2019-01-02T18:58:18.571199393Z
