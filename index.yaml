@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-elasticsearch:
   - appVersion: 2.3.2
-    created: 2019-01-02T18:58:18.57185919Z
+    created: 2019-01-02T19:22:49.074057528Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: 2d37b8cb7cc35fe43c4913571483427dde64f5eff5c9a85ca1d1ea0642f3bb96
+    digest: bf368d18376f48053ec183492909bc3d7958a50af56d7b0e5e6aaf3a490fbcf7
     engine: gotpl
     home: https://www.fluentd.org/
     icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
@@ -26,4 +26,26 @@ entries:
     urls:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.1.0.tgz
     version: 2.1.0
-generated: 2019-01-02T18:58:18.571199393Z
+  graphite:
+  - apiVersion: v1
+    appVersion: 1.1.5-3
+    created: 2019-01-02T19:22:49.074771644Z
+    description: Graphite metrics server
+    digest: d7116bf29538b5e7b0b500c0380da9a2175a4406d97506b664e8b66240ed58e0
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    urls:
+    - https://kiwigrid.github.io/graphite-0.3.0.tgz
+    version: 0.3.0
+generated: 2019-01-02T19:22:49.073396143Z
