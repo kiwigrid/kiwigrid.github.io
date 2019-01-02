@@ -1,5 +1,5 @@
 # kiwigrid.github.io
-HELM repo for Kiwigrid charts
+HELM repo for [Kiwigrid](https://kiwigrid.com) charts
 
 Add the repo via:
 ```console
