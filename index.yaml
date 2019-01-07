@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-elasticsearch:
   - appVersion: 2.3.2
-    created: 2019-01-07T14:20:17.481529358Z
+    created: 2019-01-07T14:26:28.393660839Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: 902f42ed71e4d547ad9b11a8daac65624425c964248e8585137c5d75f0eb2ff0
+    digest: ef729929eca52fbbf4b689bbd0e0db2981b9e61bbf6582f7985b2e47373bb5b2
     engine: gotpl
     home: https://www.fluentd.org/
     icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
@@ -83,10 +83,10 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-07T14:20:17.481819766Z
+    created: 2019-01-07T14:26:28.393949024Z
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
-    digest: 2e7732a763cd8c38d2e64e552db2654dc39627f95e1f1fec9000fac6d92946a6
+    digest: 5b5d7ac8288ae169153e90c6787d1d87ed6fdef1235d64f321ba301ae75a30e2
     home: https://github.com/kiwigrid/gcp-serviceaccount-controller
     maintainers:
     - email: rico.pahlisch@kiwigrid.com
@@ -98,6 +98,27 @@ entries:
     - https://kiwigrid.github.io/gcp-serviceaccount-controller-0.1.0.tgz
     version: 0.1.0
   graphite:
+  - apiVersion: v1
+    appVersion: 1.1.5-3
+    created: 2019-01-07T14:26:28.394720276Z
+    description: Graphite metrics server
+    digest: 822536daab7aff2071c8fde5a3b40b43d567d4b3a06781a323fbea70313e33e5
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    urls:
+    - https://kiwigrid.github.io/graphite-0.3.2.tgz
+    version: 0.3.2
   - apiVersion: v1
     appVersion: 1.1.5-3
     created: 2019-01-07T14:20:17.482531794Z
@@ -140,4 +161,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/graphite-0.3.0.tgz
     version: 0.3.0
-generated: 2019-01-07T14:20:17.480825287Z
+generated: 2019-01-07T14:26:28.392955557Z
