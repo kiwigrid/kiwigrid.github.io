@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-elasticsearch:
   - appVersion: 2.3.2
-    created: 2019-01-07T14:26:28.393660839Z
+    created: 2019-01-08T08:10:29.232757858Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: ef729929eca52fbbf4b689bbd0e0db2981b9e61bbf6582f7985b2e47373bb5b2
+    digest: 1b425fc06cef214e4b938708ded570915d9c007d8f0c6a4f7ac06f5424a20261
     engine: gotpl
     home: https://www.fluentd.org/
     icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
@@ -83,10 +83,10 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-07T14:26:28.393949024Z
+    created: 2019-01-08T08:10:29.233065923Z
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
-    digest: 5b5d7ac8288ae169153e90c6787d1d87ed6fdef1235d64f321ba301ae75a30e2
+    digest: 07e44c5e5af34ab31919ce9b1fcc81df51b23bd038cc81606707f07cea7aaf2a
     home: https://github.com/kiwigrid/gcp-serviceaccount-controller
     maintainers:
     - email: rico.pahlisch@kiwigrid.com
@@ -100,9 +100,9 @@ entries:
   graphite:
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-07T14:26:28.394720276Z
+    created: 2019-01-08T08:10:29.23378247Z
     description: Graphite metrics server
-    digest: 822536daab7aff2071c8fde5a3b40b43d567d4b3a06781a323fbea70313e33e5
+    digest: 8c7f1dd711ef21361496fd76251aec14216fcbc5d9ca2baa73d9a735bf077d79
     home: https://graphiteapp.org/
     icon: https://graphiteapp.org/img/graphite-logo_color.png
     keywords:
@@ -161,4 +161,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/graphite-0.3.0.tgz
     version: 0.3.0
-generated: 2019-01-07T14:26:28.392955557Z
+generated: 2019-01-08T08:10:29.232038927Z
