@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   fluentd-elasticsearch:
   - appVersion: 2.4.0
-    created: 2019-01-14T19:18:59.349969701Z
+    created: 2019-01-14T19:53:46.029930622Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: f66fbb2231b40cac26895d52ec2cddc8aba73ea929ef7c3dba60f73c32345424
+    digest: 874ef9efd673c1fe9e84a3e99d24b926620fbeb054c04e3b15fa3960a4fb0ead
     engine: gotpl
     home: https://www.fluentd.org/
     icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
@@ -110,10 +110,10 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-14T19:18:59.350275627Z
+    created: 2019-01-14T19:53:46.030239439Z
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
-    digest: 2fb99a82d4a24ceb2b9c999fceb722da97827221a876af47fba2c256df336cd3
+    digest: 59de86a35825908309763c7d1558b0b6bdc5b0b9d0a96f43113a574bdb20d76d
     home: https://github.com/kiwigrid/gcp-serviceaccount-controller
     maintainers:
     - email: rico.pahlisch@kiwigrid.com
@@ -127,9 +127,9 @@ entries:
   graphite:
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-14T19:18:59.351033782Z
+    created: 2019-01-14T19:53:46.030925648Z
     description: Graphite metrics server
-    digest: a181d9f4e0762074f6b6f011981e757753587dcc42e9c3f0aa09df690bd8295e
+    digest: ff3f82c2aad0cd70e9c440ac36ba2f24ed3e5c0d819a46c468a1993f9f1a4861
     home: https://graphiteapp.org/
     icon: https://graphiteapp.org/img/graphite-logo_color.png
     keywords:
@@ -188,4 +188,23 @@ entries:
     urls:
     - https://kiwigrid.github.io/graphite-0.3.0.tgz
     version: 0.3.0
-generated: 2019-01-14T19:18:59.349252757Z
+  kubernetes-policy-controller:
+  - apiVersion: v1
+    appVersion: "1.2"
+    created: 2019-01-14T19:53:46.03124067Z
+    description: A Helm chart for Kubernetes Policy Controller and the open policy
+      agent to manage your cluster policies
+    digest: 74c06ffbe92ab4a1870a39bd2650c846028e68525abc1f30814be914416bb59b
+    home: https://github.com/kiwigrid/helm-charts
+    icon: https://www.openpolicyagent.org/img/opa-logo.svg
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: kubernetes-policy-controller
+    sources:
+    - https://github.com/open-policy-agent/kubernetes-policy-controller
+    - https://github.com/open-policy-agent/opa
+    urls:
+    - https://kiwigrid.github.io/kubernetes-policy-controller-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-01-14T19:53:46.029304543Z
