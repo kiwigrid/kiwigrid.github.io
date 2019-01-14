@@ -1,6 +1,33 @@
 apiVersion: v1
 entries:
   fluentd-elasticsearch:
+  - appVersion: 2.4.0
+    created: 2019-01-14T19:18:59.349969701Z
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: f66fbb2231b40cac26895d52ec2cddc8aba73ea929ef7c3dba60f73c32345424
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kubernetes/charts/stable/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.0.tgz
+    version: 2.2.0
   - appVersion: 2.3.2
     created: 2019-01-08T13:11:43.288775399Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
@@ -83,10 +110,10 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-08T13:11:43.289105658Z
+    created: 2019-01-14T19:18:59.350275627Z
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
-    digest: 0d105ab7170bac4b8bff2d2509ce15af4baedebd911a8693ab0bc35c78ca70cf
+    digest: 2fb99a82d4a24ceb2b9c999fceb722da97827221a876af47fba2c256df336cd3
     home: https://github.com/kiwigrid/gcp-serviceaccount-controller
     maintainers:
     - email: rico.pahlisch@kiwigrid.com
@@ -100,9 +127,9 @@ entries:
   graphite:
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-08T13:11:43.289861041Z
+    created: 2019-01-14T19:18:59.351033782Z
     description: Graphite metrics server
-    digest: 4fc7d16289013746a18581aead28b7a7fe9fb6fd4f14a157a13a32fb0af0c5b2
+    digest: a181d9f4e0762074f6b6f011981e757753587dcc42e9c3f0aa09df690bd8295e
     home: https://graphiteapp.org/
     icon: https://graphiteapp.org/img/graphite-logo_color.png
     keywords:
@@ -161,4 +188,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/graphite-0.3.0.tgz
     version: 0.3.0
-generated: 2019-01-08T13:11:43.2880639Z
+generated: 2019-01-14T19:18:59.349252757Z
