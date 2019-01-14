@@ -207,4 +207,26 @@ entries:
     urls:
     - https://kiwigrid.github.io/kubernetes-policy-controller-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-14T19:53:46.029304543Z
+  prometheus-pingdom-exporter:
+  - apiVersion: v1
+    appVersion: 20180821-1
+    created: 2019-01-14T21:46:04.210376487+01:00
+    description: A Helm chart for Prometheus Pingdom Exporter
+    digest: 078b3d3c704b216b0070d9f764340c17acb066d6514ecfe0c737650b169d0859
+    home: https://github.com/giantswarm/prometheus-pingdom-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - pingdom
+    maintainers:
+    - email: hanjo.meinhardt@kiwigrid.com
+      name: bunix42
+    name: prometheus-pingdom-exporter
+    sources:
+    - https://github.com/giantswarm/prometheus-pingdom-exporter
+    - https://github.com/camptocamp/prometheus-pingdom-exporter
+    urls:
+    - https://kiwigrid.github.io/prometheus-pingdom-exporter-2.0.0.tgz
+    version: 2.0.0
+generated: 2019-01-14T21:46:04.196937773+01:00
+
