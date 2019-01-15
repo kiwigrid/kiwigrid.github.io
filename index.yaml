@@ -2,6 +2,33 @@ apiVersion: v1
 entries:
   fluentd-elasticsearch:
   - appVersion: 2.4.0
+    created: 2019-01-15T13:20:46.926671347Z
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: 38f933fca72b541c8b89d2441cd6155e798f6cae34935f2371a7ecd8af074a55
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kubernetes/charts/stable/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.1.tgz
+    version: 2.2.1
+  - appVersion: 2.4.0
     created: 2019-01-14T19:53:46.029930622Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 874ef9efd673c1fe9e84a3e99d24b926620fbeb054c04e3b15fa3960a4fb0ead
@@ -110,10 +137,10 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-14T19:53:46.030239439Z
+    created: 2019-01-15T13:20:46.926983595Z
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
-    digest: 59de86a35825908309763c7d1558b0b6bdc5b0b9d0a96f43113a574bdb20d76d
+    digest: e5f0b2b03ce99325e8cf27b925da4adf8b3136633e657cb20013c4bf22742c9c
     home: https://github.com/kiwigrid/gcp-serviceaccount-controller
     maintainers:
     - email: rico.pahlisch@kiwigrid.com
@@ -127,9 +154,9 @@ entries:
   graphite:
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-14T19:53:46.030925648Z
+    created: 2019-01-15T13:20:46.927694348Z
     description: Graphite metrics server
-    digest: ff3f82c2aad0cd70e9c440ac36ba2f24ed3e5c0d819a46c468a1993f9f1a4861
+    digest: c1a7125f6569466b884a483e3eeb5cc31d9c8030b1d3084d6f3ed06b9745e8aa
     home: https://graphiteapp.org/
     icon: https://graphiteapp.org/img/graphite-logo_color.png
     keywords:
@@ -191,10 +218,10 @@ entries:
   kubernetes-policy-controller:
   - apiVersion: v1
     appVersion: "1.2"
-    created: 2019-01-14T19:53:46.03124067Z
+    created: 2019-01-15T13:20:46.92803377Z
     description: A Helm chart for Kubernetes Policy Controller and the open policy
       agent to manage your cluster policies
-    digest: 74c06ffbe92ab4a1870a39bd2650c846028e68525abc1f30814be914416bb59b
+    digest: cfecf802033f3264d73679f54dd72ec2416cc45849b864cb53ed287b306da4e4
     home: https://github.com/kiwigrid/helm-charts
     icon: https://www.openpolicyagent.org/img/opa-logo.svg
     maintainers:
@@ -210,9 +237,9 @@ entries:
   prometheus-pingdom-exporter:
   - apiVersion: v1
     appVersion: 20180821-1
-    created: 2019-01-14T21:46:04.210376487+01:00
+    created: 2019-01-15T13:20:46.928347742Z
     description: A Helm chart for Prometheus Pingdom Exporter
-    digest: 078b3d3c704b216b0070d9f764340c17acb066d6514ecfe0c737650b169d0859
+    digest: e9f658b1652ebc08d8e3ef79f9d339588e05d594f2e336d38f36ef4c2800fbfd
     home: https://github.com/giantswarm/prometheus-pingdom-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -228,5 +255,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/prometheus-pingdom-exporter-2.0.0.tgz
     version: 2.0.0
-generated: 2019-01-14T21:46:04.196937773+01:00
-
+generated: 2019-01-15T13:20:46.925897393Z
