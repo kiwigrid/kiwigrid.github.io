@@ -29,9 +29,9 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.1.tgz
     version: 2.2.1
   - appVersion: 2.4.0
-    created: 2019-01-14T19:53:46.029930622Z
+    created: 2019-01-16T09:21:10.354559435Z
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: 874ef9efd673c1fe9e84a3e99d24b926620fbeb054c04e3b15fa3960a4fb0ead
+    digest: 7cab1ddd35f63cadc4290e8516fac492b2dce2c5a68680e0b367d9fa7b3b9e3b
     engine: gotpl
     home: https://www.fluentd.org/
     icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
@@ -137,10 +137,10 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-15T13:51:24.323720926Z
+    created: 2019-01-16T09:21:10.355060426Z
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
-    digest: b8cbadf082c6769bee9525b6533ac3cd8ae7291fab845dc662411c0133da62ae
+    digest: c11cb0ea0f677b5a003aae40148ba949adc2bf5fba45faf6f0e2800040ec2976
     home: https://github.com/kiwigrid/gcp-serviceaccount-controller
     maintainers:
     - email: rico.pahlisch@kiwigrid.com
@@ -175,9 +175,9 @@ entries:
     version: 0.3.3
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-15T13:20:46.927694348Z
+    created: 2019-01-16T09:21:10.356279866Z
     description: Graphite metrics server
-    digest: c1a7125f6569466b884a483e3eeb5cc31d9c8030b1d3084d6f3ed06b9745e8aa
+    digest: d339c247bf2f02f6ec2b1dd59f9517f87304ae762717626dcb0021109384183b
     home: https://graphiteapp.org/
     icon: https://graphiteapp.org/img/graphite-logo_color.png
     keywords:
@@ -239,10 +239,10 @@ entries:
   kubernetes-policy-controller:
   - apiVersion: v1
     appVersion: "1.2"
-    created: 2019-01-15T13:51:24.324749325Z
+    created: 2019-01-16T09:21:10.356881691Z
     description: A Helm chart for Kubernetes Policy Controller and the open policy
       agent to manage your cluster policies
-    digest: 1085c80d933c5d4bb9315618de612064c3415a62dcfe12a3453512fa10b6a770
+    digest: 96626d60ccab0a41bea1d8f60686bdb8b5b392718e4d4061240e18f2bedf9fd9
     home: https://github.com/kiwigrid/helm-charts
     icon: https://www.openpolicyagent.org/img/opa-logo.svg
     maintainers:
@@ -258,9 +258,9 @@ entries:
   prometheus-pingdom-exporter:
   - apiVersion: v1
     appVersion: 20180821-1
-    created: 2019-01-15T13:51:24.325051831Z
+    created: 2019-01-16T09:21:10.357406118Z
     description: A Helm chart for Prometheus Pingdom Exporter
-    digest: d9dbd0c871ad0a64a1f380dbedf2d928e8ec908693512243931f19d1a45c783d
+    digest: ca6b4de55cccf8df1a200490c3db6e70f07e488709ea13f04f573748fbb93d41
     home: https://github.com/giantswarm/prometheus-pingdom-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -278,6 +278,21 @@ entries:
     version: 2.0.0
   pull-secret-distributor:
   - apiVersion: v1
+    appVersion: "15"
+    created: 2019-01-16T09:21:10.357838463Z
+    description: A Helm chart to distribute pull secret across namespaces
+    digest: 7b2abce19be56140981ca856a6723c989eb7971e4700b2c7dc035927863fc557
+    home: https://github.com/kiwigrid/pull-secret-distributor
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: pull-secret-distributor
+    sources:
+    - https://github.com/kiwigrid/pull-secret-distributor
+    urls:
+    - https://kiwigrid.github.io/pull-secret-distributor-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     appVersion: "10"
     created: 2019-01-15T13:51:24.325304396Z
     description: A Helm chart to distribute pull secret across namespaces
@@ -292,4 +307,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/pull-secret-distributor-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-15T13:51:24.322796496Z
+generated: 2019-01-16T09:21:10.353447774Z
