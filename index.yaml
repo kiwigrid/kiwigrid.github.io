@@ -255,6 +255,24 @@ entries:
   kubernetes-policy-controller:
   - apiVersion: v1
     appVersion: "1.2"
+    created: 2019-01-18T15:04:53.477800989Z
+    description: A Helm chart for Kubernetes Policy Controller and the open policy
+      agent to manage your cluster policies
+    digest: a2f299de3c494d3c461a712f38527717e7d28e19a0e56ac45e8477c69e9e2bd6
+    home: https://github.com/kiwigrid/helm-charts
+    icon: https://www.openpolicyagent.org/img/opa-logo.svg
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: kubernetes-policy-controller
+    sources:
+    - https://github.com/open-policy-agent/kubernetes-policy-controller
+    - https://github.com/open-policy-agent/opa
+    urls:
+    - https://kiwigrid.github.io/kubernetes-policy-controller-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: "1.2"
     created: 2019-01-16T11:51:14.597425906Z
     description: A Helm chart for Kubernetes Policy Controller and the open policy
       agent to manage your cluster policies
@@ -338,4 +356,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/pull-secret-distributor-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-18T13:46:33.991630431Z
+generated: 2019-01-18T15:04:53.477156354Z
