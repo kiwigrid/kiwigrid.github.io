@@ -356,4 +356,20 @@ entries:
     urls:
     - https://kiwigrid.github.io/pull-secret-distributor-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-18T15:04:53.477156354Z
+  zipkin-stackdriver-proxy:
+  - apiVersion: v1
+    appVersion: v0.6.0
+    created: 2019-01-18T16:32:33.25559843Z
+    description: A Helm chart for Zipkin Stackdriver proxy
+    digest: a34c9e2b06098b755fc6b5c2bfa0580a8dd68a171dda70334d84548a8379f035
+    home: https://github.com/openzipkin/zipkin-gcp
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: zipkin-stackdriver-proxy
+    sources:
+    - https://github.com/openzipkin/zipkin-gcp
+    urls:
+    - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-01-18T16:32:33.255242588Z
