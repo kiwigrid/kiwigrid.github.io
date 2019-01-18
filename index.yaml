@@ -294,6 +294,21 @@ entries:
     version: 2.0.0
   pull-secret-distributor:
   - apiVersion: v1
+    appVersion: "25"
+    created: 2019-01-18T13:46:33.992080956Z
+    description: A Helm chart to distribute pull secret across namespaces
+    digest: 341851d0ad4b9deb89b0f6d39080e90a37a146dfec0791f8473856bae798cb55
+    home: https://github.com/kiwigrid/pull-secret-distributor
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: pull-secret-distributor
+    sources:
+    - https://github.com/kiwigrid/pull-secret-distributor
+    urls:
+    - https://kiwigrid.github.io/pull-secret-distributor-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
     appVersion: "15"
     created: 2019-01-16T11:51:14.598051683Z
     description: A Helm chart to distribute pull secret across namespaces
@@ -323,4 +338,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/pull-secret-distributor-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-16T11:51:14.595253205Z
+generated: 2019-01-18T13:46:33.991630431Z
