@@ -1,5 +1,5 @@
 # kiwigrid.github.io
-Helm repo for [Kiwigrid](https://kiwigrid.com) charts which can be installed on [Kubernetes](https://kubernetes.io/)
+[Helm](https://helm.sh/) repo for [Kiwigrid](https://kiwigrid.com) charts which can be installed on [Kubernetes](https://kubernetes.io/)
 
 Add the repo via:
 ```console
