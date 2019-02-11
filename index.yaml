@@ -512,6 +512,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/pull-secret-distributor-0.1.0.tgz
     version: 0.1.0
+  secret-replicator:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2019-02-11T14:49:51.865693302Z
+    description: A Helm chart to replicate secret across namespaces
+    digest: b8b723c9ca498006d9b1a3ef19c6b5420214a29038dddf656a09f0a1f802277b
+    home: https://github.com/kiwigrid/secret-replicator
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: secret-replicator
+    sources:
+    - https://github.com/kiwigrid/secret-replicator
+    urls:
+    - https://kiwigrid.github.io/secret-replicator-0.4.0.tgz
+    version: 0.4.0
   zipkin-stackdriver-proxy:
   - apiVersion: v1
     appVersion: v0.6.0
@@ -528,4 +544,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-02-11T14:13:18.402186394Z
+generated: 2019-02-11T14:49:51.86532757Z
