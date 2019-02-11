@@ -469,6 +469,19 @@ entries:
   pull-secret-distributor:
   - apiVersion: v1
     appVersion: "25"
+    created: 2019-02-11T20:50:35.261701997Z
+    deprecated: true
+    description: A Helm chart to distribute pull secret across namespaces
+    digest: 2b49cc76b5c463f18e26f2fc5e4816fcdafbddedad60dac61768d0afc95060e4
+    home: https://github.com/kiwigrid/pull-secret-distributor
+    name: pull-secret-distributor
+    sources:
+    - https://github.com/kiwigrid/pull-secret-distributor
+    urls:
+    - https://kiwigrid.github.io/pull-secret-distributor-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    appVersion: "25"
     created: 2019-01-18T13:46:33.992080956Z
     description: A Helm chart to distribute pull secret across namespaces
     digest: 341851d0ad4b9deb89b0f6d39080e90a37a146dfec0791f8473856bae798cb55
@@ -544,4 +557,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-02-11T14:49:51.86532757Z
+generated: 2019-02-11T20:50:35.261364412Z
