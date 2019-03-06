@@ -746,6 +746,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/secret-replicator-0.4.0.tgz
     version: 0.4.0
+  stackdriver-exporter:
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: 2019-03-06T09:55:45.125455593Z
+    description: A Helm chart for exporting stackdriver metrics to prometheus
+    digest: 3fe6ba2d1b9f840f64bd0f5ed14b09abf683fb731bc58b018029ded9d630e1c9
+    home: https://github.com/frodenas/stackdriver_exporter
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: stackdriver-exporter
+    sources:
+    - https://github.com/frodenas/stackdriver_exporter
+    urls:
+    - https://kiwigrid.github.io/stackdriver-exporter-0.1.0.tgz
+    version: 0.1.0
   zipkin-stackdriver-proxy:
   - apiVersion: v1
     appVersion: v0.6.0
@@ -762,4 +778,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-03-05T09:02:39.090414034Z
+generated: 2019-03-06T09:55:45.125020695Z
