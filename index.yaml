@@ -1,5 +1,19 @@
 apiVersion: v1
 entries:
+  any-resource:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2019-03-06T13:16:11.121135314Z
+    description: A Helm chart to bring any kind of resources in a k8s cluster
+    digest: bcd9195b29d4b6b43284b05b5ee873ee408cbeea745ee5988f7ef8e792a33a95
+    home: https://github.com/kiwigrid/helm-charts
+    maintainers:
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: any-resource
+    urls:
+    - https://kiwigrid.github.io/any-resource-0.1.0.tgz
+    version: 0.1.0
   fluentd-elasticsearch:
   - appVersion: 2.4.0
     created: 2019-02-26T07:50:05.66367247Z
@@ -794,4 +808,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-03-06T11:30:44.714497791Z
+generated: 2019-03-06T13:16:11.120691236Z
