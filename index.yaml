@@ -565,6 +565,22 @@ entries:
   hawkbit-update-server:
   - apiVersion: v1
     appVersion: 0.2.5
+    created: 2019-03-07T12:43:45.939890543Z
+    description: A Helm chart for hawkbit update server
+    digest: c7c182cc0e4edc7fbb95b13cfdede8ea95b72cc226ae998c0f3fd26c1b612617
+    home: https://www.eclipse.org/hawkbit/
+    icon: https://www.eclipse.org/hawkbit/images/hawkbit_icon.png
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: hawkbit-update-server
+    urls:
+    - https://kiwigrid.github.io/hawkbit-update-server-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    appVersion: 0.2.5
     created: 2019-03-06T14:51:47.623937638Z
     description: A Helm chart for hawkbit update server
     digest: c97a0b4cea496580318d6b4bbdd7def157ae1dc773aebd72cc60646dde432240
@@ -824,4 +840,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-03-06T14:51:47.622312363Z
+generated: 2019-03-07T12:43:45.938401167Z
