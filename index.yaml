@@ -811,6 +811,21 @@ entries:
   stackdriver-exporter:
   - apiVersion: v1
     appVersion: 0.6.0
+    created: 2019-03-12T13:00:19.803777074Z
+    description: A Helm chart for exporting stackdriver metrics to prometheus
+    digest: fcdc52c3ce5cd5108c7ecfe208a544b2b1848cf2b462f4699f1e8b2c26d66993
+    home: https://github.com/frodenas/stackdriver_exporter
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: stackdriver-exporter
+    sources:
+    - https://github.com/frodenas/stackdriver_exporter
+    urls:
+    - https://kiwigrid.github.io/stackdriver-exporter-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: 0.6.0
     created: 2019-03-12T12:16:34.17155551Z
     description: A Helm chart for exporting stackdriver metrics to prometheus
     digest: af28a2df3a937dec28cf0ad902cd20916c45e2e7e82c9ec6813b9f88f282931f
@@ -855,4 +870,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-03-12T12:16:34.170881508Z
+generated: 2019-03-12T13:00:19.80330532Z
