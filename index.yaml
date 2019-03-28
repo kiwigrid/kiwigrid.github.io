@@ -814,6 +814,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/prometheus-pingdom-exporter-2.0.0.tgz
     version: 2.0.0
+  prometheus-thanos:
+  - apiVersion: v1
+    appVersion: 0.3.2
+    created: 2019-03-28T15:10:25.479822418Z
+    description: A Helm chart for thanos querier and store gateway
+    digest: 52eeff2c0ec53d94071dcac3833136c61b2b54c4fb05d30bc22fcae615818942
+    home: https://github.com/improbable-eng/thanos
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: prometheus-thanos
+    sources:
+    - https://github.com/improbable-eng/thanos
+    urls:
+    - https://kiwigrid.github.io/prometheus-thanos-0.1.0.tgz
+    version: 0.1.0
   pull-secret-distributor:
   - apiVersion: v1
     appVersion: "25"
@@ -951,4 +967,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-03-28T10:48:29.037633375Z
+generated: 2019-03-28T15:10:25.47855024Z
