@@ -860,6 +860,21 @@ entries:
   prometheus-thanos:
   - apiVersion: v1
     appVersion: 0.3.2
+    created: 2019-04-05T11:50:41.693755791Z
+    description: A Helm chart for thanos querier and store gateway
+    digest: 33f419545e4c41cd81689a0e9af59b64546ec7c8aed5623cef6f345e5e1c81da
+    home: https://github.com/improbable-eng/thanos
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: prometheus-thanos
+    sources:
+    - https://github.com/improbable-eng/thanos
+    urls:
+    - https://kiwigrid.github.io/prometheus-thanos-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    appVersion: 0.3.2
     created: 2019-04-05T07:29:25.64665337Z
     description: A Helm chart for thanos querier and store gateway
     digest: 72c35a42e800cbff04cd56696c37866e7f1ce0caa8d4edf20272d386f92eb764
@@ -1025,4 +1040,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-05T07:29:25.645385913Z
+generated: 2019-04-05T11:50:41.692442178Z
