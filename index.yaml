@@ -799,6 +799,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/hawkbit-update-server-0.1.0.tgz
     version: 0.1.0
+  keycloak-client-controller:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2019-04-08T06:56:16.650451147Z
+    description: A Helm chart for a Kubernetes controller to manage Keycloak clients
+    digest: b6158163ec3bd629246f74bab8a38387952fbccb63163f877fc8ac20034774da
+    home: https://github.com/kiwigrid/keycloak-client-controller
+    maintainers:
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: keycloak-client-controller
+    sources:
+    - https://github.com/kiwigrid/keycloak-client-controller
+    urls:
+    - https://kiwigrid.github.io/keycloak-client-controller-0.1.0.tgz
+    version: 0.1.0
   kubernetes-policy-controller:
   - apiVersion: v1
     appVersion: "1.2"
@@ -1040,4 +1056,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-05T11:50:41.692442178Z
+generated: 2019-04-08T06:56:16.650042531Z
