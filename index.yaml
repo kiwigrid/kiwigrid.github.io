@@ -896,6 +896,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/hawkbit-update-server-0.1.0.tgz
     version: 0.1.0
+  ingress-annotator:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2019-05-06T09:21:17.897578115Z
+    description: A Helm chart for ingress annotator controller
+    digest: d95d952704e093f8331ef21a6d5d83c6869befa48a42698121ac960d725ddd7e
+    home: https://github.com/kiwigrid/ingress-annotator
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: ingress-annotator
+    sources:
+    - https://github.com/kiwigrid/ingress-annotator
+    urls:
+    - https://kiwigrid.github.io/ingress-annotator-0.1.0.tgz
+    version: 0.1.0
   keycloak-client-controller:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -1228,4 +1244,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-02T13:06:42.351530754Z
+generated: 2019-05-06T09:21:17.897054246Z
