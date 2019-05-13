@@ -14,6 +14,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/any-resource-0.1.0.tgz
     version: 0.1.0
+  error-pages:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-05-13T13:37:35.631776467Z
+    description: A Helm chart for Kubernetes error pages for traefik
+    digest: ebceb519e8bac1b4b8c00e6657a1658114c13b1b505a05fe323b5fd8704a7e3b
+    home: https://github.com/kiwigrid/helm-charts
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: error-pages
+    sources:
+    - https://github.com/kiwigrid/helm-charts
+    urls:
+    - https://kiwigrid.github.io/error-pages-0.1.0.tgz
+    version: 0.1.0
   fluentd-elasticsearch:
   - appVersion: 2.5.1
     created: 2019-05-08T09:36:34.21917001Z
@@ -1334,4 +1350,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-09T13:52:55.776322438Z
+generated: 2019-05-13T13:37:35.631405061Z
