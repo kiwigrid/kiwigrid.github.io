@@ -1612,6 +1612,25 @@ entries:
     version: 2.0.0
   prometheus-thanos:
   - apiVersion: v1
+    appVersion: 0.6.0
+    created: 2019-07-22T07:24:20.249061233Z
+    description: A Helm chart for thanos monitoring components
+    digest: d94ddd6baf70dadf71d922fe1764f7a6dee69cf320a890908e74992d9a69cf3b
+    home: https://github.com/thanos-io/thanos
+    icon: https://raw.githubusercontent.com/thanos-io/thanos/master/docs/img/Thanos-logo_fullmedium.png
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: prometheus-thanos
+    sources:
+    - https://github.com/thanos-io/thanos
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/prometheus-thanos
+    urls:
+    - https://kiwigrid.github.io/prometheus-thanos-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
     appVersion: 0.5.0
     created: 2019-07-11T09:14:44.115753277Z
     description: A Helm chart for thanos monitoring components
@@ -2015,4 +2034,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-07-17T13:59:27.1385238Z
+generated: 2019-07-22T07:24:20.247740522Z
