@@ -3,7 +3,7 @@ entries:
   any-resource:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2019-03-06T13:16:11.121135314Z
+    created: "2019-03-06T13:16:11.121135314Z"
     description: A Helm chart to bring any kind of resources in a k8s cluster
     digest: bcd9195b29d4b6b43284b05b5ee873ee408cbeea745ee5988f7ef8e792a33a95
     home: https://github.com/kiwigrid/helm-charts
@@ -17,7 +17,7 @@ entries:
   error-pages:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-05-13T13:37:35.631776467Z
+    created: "2019-05-13T13:37:35.631776467Z"
     description: A Helm chart for Kubernetes error pages for traefik
     digest: ebceb519e8bac1b4b8c00e6657a1658114c13b1b505a05fe323b5fd8704a7e3b
     home: https://github.com/kiwigrid/helm-charts
@@ -33,7 +33,35 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-07-23T22:05:01.210006444Z
+    created: "2019-07-26T22:25:29.724653175Z"
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: 91e2516536fbf818d858030b1592a547d16bf7cc687815178f02c4a1a8bef0b5
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://kiwigrid.github.io/fluentd-elasticsearch-4.5.0.tgz
+    version: 4.5.0
+  - apiVersion: v1
+    appVersion: 2.6.0
+    created: "2019-07-23T22:05:01.210006444Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: a2ad09b989944788e8a4b42f8fa88964e7a3a189fb093e6b83b532fb2a28401a
     engine: gotpl
@@ -61,7 +89,7 @@ entries:
     version: 4.4.0
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-07-17T13:59:27.139353198Z
+    created: "2019-07-17T13:59:27.139353198Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 1df47d02f9c149b49b64d3ed2928962c57490f84fd59afe7ef49414aacba09c9
     engine: gotpl
@@ -89,7 +117,7 @@ entries:
     version: 4.3.2
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-07-16T19:36:03.472160874Z
+    created: "2019-07-16T19:36:03.472160874Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 3427c92e98ce92ab3df14949726216428bc585faa8afe17c9cbafd7c9ba7b31d
     engine: gotpl
@@ -117,7 +145,7 @@ entries:
     version: 4.3.1
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-07-10T08:57:21.93941037Z
+    created: "2019-07-10T08:57:21.93941037Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: ab6acfc2cdc337ac7adb2427adf09fea1a86eabe99f265d1a9a91c13c80c6ec6
     engine: gotpl
@@ -145,7 +173,7 @@ entries:
     version: 4.3.0
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-07-06T16:19:07.953151226Z
+    created: "2019-07-06T16:19:07.953151226Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 487cb9a1a3649f8b173aa22fcbaf83bd6fa9f8822aa43213d93163dede153ad5
     engine: gotpl
@@ -173,7 +201,7 @@ entries:
     version: 4.2.1
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-06-26T08:24:21.548352202Z
+    created: "2019-06-26T08:24:21.548352202Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 0ba275f9a32a9606cfdb660dfdd4e95492b3461223f3365242d06e12ecf45f26
     engine: gotpl
@@ -201,7 +229,7 @@ entries:
     version: 4.2.0
   - apiVersion: v1
     appVersion: 2.6.0
-    created: 2019-06-24T11:33:22.480937111Z
+    created: "2019-06-24T11:33:22.480937111Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 062f320fc4061448279b0433418fe5c26b1dddf057b341c332f000403b036b30
     engine: gotpl
@@ -229,7 +257,7 @@ entries:
     version: 4.1.0
   - apiVersion: v1
     appVersion: 2.5.2
-    created: 2019-06-13T08:56:02.843284032Z
+    created: "2019-06-13T08:56:02.843284032Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 3724b9006a506721a45c0eeca8cb7aeffa5bfa16c3a6bbe2e786a58f29db1e96
     engine: gotpl
@@ -257,7 +285,7 @@ entries:
     version: 4.0.0
   - apiVersion: v1
     appVersion: 2.5.2
-    created: 2019-06-12T13:47:19.804816189Z
+    created: "2019-06-12T13:47:19.804816189Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 1291cbe48fdceb3c844f949610faa7f4b160dbb548e1300488c6d84e686cb72a
     engine: gotpl
@@ -285,7 +313,7 @@ entries:
     version: 3.0.2
   - apiVersion: v1
     appVersion: 2.5.2
-    created: 2019-05-28T13:59:55.602704044Z
+    created: "2019-05-28T13:59:55.602704044Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: a5ae9db4d8e0c0bdedd9ea24a79ed05f06476eb29a719fc2007ba052a956ac05
     engine: gotpl
@@ -312,7 +340,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-3.0.1.tgz
     version: 3.0.1
   - appVersion: 2.5.2
-    created: 2019-05-16T19:36:48.653980187Z
+    created: "2019-05-16T19:36:48.653980187Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: c3a7cd4597fd4b67db30339e052bf39e064b459046a71bb1219b9a959c44c54b
     engine: gotpl
@@ -339,7 +367,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-3.0.0.tgz
     version: 3.0.0
   - appVersion: 2.5.2
-    created: 2019-05-15T13:15:27.529252467Z
+    created: "2019-05-15T13:15:27.529252467Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 4701ed3fb6eef70137f1eaf3625d8d523d912ab206721d1fd9f1b2b915b0b1f5
     engine: gotpl
@@ -366,7 +394,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.12.0.tgz
     version: 2.12.0
   - appVersion: 2.5.1
-    created: 2019-05-14T14:54:23.003432246Z
+    created: "2019-05-14T14:54:23.003432246Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 6ac28f3353102a9e2daee3b760d0108d7fecbc0a2faa3efd9a0ea2e5fc98fa7b
     engine: gotpl
@@ -393,7 +421,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.11.1.tgz
     version: 2.11.1
   - appVersion: 2.5.1
-    created: 2019-05-14T10:54:36.906502164Z
+    created: "2019-05-14T10:54:36.906502164Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 336804f30be8044ab29691e1f55b68efc31e3704145a4d5a31045462f6a4d257
     engine: gotpl
@@ -420,7 +448,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.11.0.tgz
     version: 2.11.0
   - appVersion: 2.5.1
-    created: 2019-05-14T09:03:03.453604427Z
+    created: "2019-05-14T09:03:03.453604427Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: f3c671d4080f98de44e214273d455ecbc588294622ec9e97e524df975564a7b2
     engine: gotpl
@@ -447,7 +475,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.10.1.tgz
     version: 2.10.1
   - appVersion: 2.5.1
-    created: 2019-05-13T21:40:32.893651194Z
+    created: "2019-05-13T21:40:32.893651194Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 181427186af2a3fd445a40b5064caf9e4ea4798b3e47a601e03bdd837d878987
     engine: gotpl
@@ -474,7 +502,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.10.0.tgz
     version: 2.10.0
   - appVersion: 2.5.1
-    created: 2019-05-08T09:36:34.21917001Z
+    created: "2019-05-08T09:36:34.21917001Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 3ac72b563cd06c64984002db77152f1048323e8bfd28d8495f72a99e240e7f0c
     engine: gotpl
@@ -501,7 +529,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.9.1.tgz
     version: 2.9.1
   - appVersion: 2.5.1
-    created: 2019-04-24T17:27:06.842620945Z
+    created: "2019-04-24T17:27:06.842620945Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 4b68f58b55ca59b6ef1b55eb9f13470b8f04002a5e7a623eb7e4d133e5e14454
     engine: gotpl
@@ -528,7 +556,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.9.0.tgz
     version: 2.9.0
   - appVersion: 2.5.1
-    created: 2019-04-08T09:45:19.774380123Z
+    created: "2019-04-08T09:45:19.774380123Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: f9f52dfc80151455ba2fcf9b05c2cd04b5703f4a1976ceab4d01c21c2282f3c2
     engine: gotpl
@@ -555,7 +583,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.8.3.tgz
     version: 2.8.3
   - appVersion: 2.5.1
-    created: 2019-04-08T09:37:37.433323938Z
+    created: "2019-04-08T09:37:37.433323938Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 56a01c0376d44c25684d3bd545810409a671952555e3b1ae4d526e38c6cfefa7
     engine: gotpl
@@ -582,7 +610,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.8.2.tgz
     version: 2.8.2
   - appVersion: 2.5.0
-    created: 2019-03-29T12:29:46.79312683Z
+    created: "2019-03-29T12:29:46.79312683Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: d212ba9a1f5db5438bbeb8e938970c090f1833c6c71249526e68e7484a030df0
     engine: gotpl
@@ -609,7 +637,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.8.1.tgz
     version: 2.8.1
   - appVersion: 2.5.0
-    created: 2019-03-28T10:48:29.038419845Z
+    created: "2019-03-28T10:48:29.038419845Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 0e1ba94bdd0c2e00b782454b3677622fecbacbe1ba9ef8d5ff2fb5a07b044804
     engine: gotpl
@@ -636,7 +664,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.8.0.tgz
     version: 2.8.0
   - appVersion: 2.4.0
-    created: 2019-03-19T17:39:21.832714626Z
+    created: "2019-03-19T17:39:21.832714626Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 6371d71cebcc73113b4c56026e4ee4afe44c17de184a67a58508b3298e672858
     engine: gotpl
@@ -663,7 +691,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.7.0.tgz
     version: 2.7.0
   - appVersion: 2.4.0
-    created: 2019-03-12T16:28:29.694293502Z
+    created: "2019-03-12T16:28:29.694293502Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 0c7726fa57b7ea10290da98ca24b29b0e4892dcb67497ddfa1f0546b396bfaac
     engine: gotpl
@@ -690,7 +718,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.6.0.tgz
     version: 2.6.0
   - appVersion: 2.4.0
-    created: 2019-02-26T07:50:05.66367247Z
+    created: "2019-02-26T07:50:05.66367247Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: ba8e0a674c86bb15c6b0e1648bc8b40d67985ebe8d91ccf895b83e855798b65b
     engine: gotpl
@@ -717,7 +745,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.5.0.tgz
     version: 2.5.0
   - appVersion: 2.4.0
-    created: 2019-02-25T13:35:48.526890775Z
+    created: "2019-02-25T13:35:48.526890775Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 0b12f9126cbabe5dee2753ab14245c1bb0c45491a49b94bcb591318f71f357f5
     engine: gotpl
@@ -744,7 +772,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.4.0.tgz
     version: 2.4.0
   - appVersion: 2.4.0
-    created: 2019-02-22T22:06:09.957262361Z
+    created: "2019-02-22T22:06:09.957262361Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 55af1d855204a8b52628ff56011e3a018d223cd6b1951252fe41b74f84028607
     engine: gotpl
@@ -771,7 +799,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.3.3.tgz
     version: 2.3.3
   - appVersion: 2.4.0
-    created: 2019-02-22T21:14:10.083676152Z
+    created: "2019-02-22T21:14:10.083676152Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 03da217494bd1ea46d8bcb7bec7f6581c9c8ba2f660bc735c608070ea180ce57
     engine: gotpl
@@ -798,7 +826,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.3.2.tgz
     version: 2.3.2
   - appVersion: 2.4.0
-    created: 2019-02-22T18:57:37.05971082Z
+    created: "2019-02-22T18:57:37.05971082Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: c5010fa1d9c4f0f7c409972b5716ea340f0feb0bb0757307d17747dabf80d91b
     engine: gotpl
@@ -825,7 +853,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.3.1.tgz
     version: 2.3.1
   - appVersion: 2.4.0
-    created: 2019-02-20T08:31:10.546579094Z
+    created: "2019-02-20T08:31:10.546579094Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 67b5bff45be6b09e000e6c22a5237dd51c7a43722b851909cfab79f3006ecfe0
     engine: gotpl
@@ -852,7 +880,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.3.0.tgz
     version: 2.3.0
   - appVersion: 2.4.0
-    created: 2019-02-19T13:25:57.17728915Z
+    created: "2019-02-19T13:25:57.17728915Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: cd973ff3914f04c4b5cc9f11634ff8d769630c25775cbabe39ca52faa115cad9
     engine: gotpl
@@ -879,7 +907,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.4.tgz
     version: 2.2.4
   - appVersion: 2.4.0
-    created: 2019-02-03T10:29:31.523619044Z
+    created: "2019-02-03T10:29:31.523619044Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 0849ed2b81790f7e38e20e2ca09fc1bbb6fec59b5b267aa9cc8e121e616b6e83
     engine: gotpl
@@ -906,7 +934,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.3.tgz
     version: 2.2.3
   - appVersion: 2.4.0
-    created: 2019-01-22T23:36:51.28413345Z
+    created: "2019-01-22T23:36:51.28413345Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 046073b6a978b27b08d622943af94d10c8f768ac3bd1072fb1bfdeb9a3942961
     engine: gotpl
@@ -933,7 +961,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.2.tgz
     version: 2.2.2
   - appVersion: 2.4.0
-    created: 2019-01-16T11:51:14.596034226Z
+    created: "2019-01-16T11:51:14.596034226Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: b19369de109b5eba12330ae73d82b0cb2bfd508ac038e643a3f34be74a55759f
     engine: gotpl
@@ -960,7 +988,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.1.tgz
     version: 2.2.1
   - appVersion: 2.4.0
-    created: 2019-01-16T09:21:10.354559435Z
+    created: "2019-01-16T09:21:10.354559435Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 7cab1ddd35f63cadc4290e8516fac492b2dce2c5a68680e0b367d9fa7b3b9e3b
     engine: gotpl
@@ -987,7 +1015,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.2.0.tgz
     version: 2.2.0
   - appVersion: 2.3.2
-    created: 2019-01-08T13:11:43.288775399Z
+    created: "2019-01-08T13:11:43.288775399Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 4a09b8671b4340f0f83413bdd57b188f3b915689e7d4e07ec7f4f662572434ea
     engine: gotpl
@@ -1014,7 +1042,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.1.2.tgz
     version: 2.1.2
   - appVersion: 2.3.2
-    created: 2019-01-05T16:55:45.057457592Z
+    created: "2019-01-05T16:55:45.057457592Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: b01e95c26ce8a80eb5f4dd62b26833f6a54c9ff968681a23afc12216ecc204fe
     engine: gotpl
@@ -1041,7 +1069,7 @@ entries:
     - https://kiwigrid.github.io/fluentd-elasticsearch-2.1.1.tgz
     version: 2.1.1
   - appVersion: 2.3.2
-    created: 2019-01-02T18:42:16.37365598Z
+    created: "2019-01-02T18:42:16.37365598Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: be99b993fb661e8be43950bbb06d010d71cbed96cdb82bba12e057689dc74f70
     engine: gotpl
@@ -1068,7 +1096,7 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: 0.2.1
-    created: 2019-05-25T16:11:03.643430283Z
+    created: "2019-05-25T16:11:03.643430283Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
     digest: 55f2b6914a970926cfb9edba890caa7cc3b4b9d99cda99c43ca3d2b3f518452e
@@ -1084,7 +1112,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.2.1
-    created: 2019-05-02T08:26:36.236952384Z
+    created: "2019-05-02T08:26:36.236952384Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
     digest: a9e0d987f94da93f7f1fca3f37939710a6a7be819bfe023051246e4c33fd562e
@@ -1100,7 +1128,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.2.1
-    created: 2019-03-05T09:02:39.090876814Z
+    created: "2019-03-05T09:02:39.090876814Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
     digest: 597615c65455b1286663af28f1efdc3bbbb3d0ad417132861f50262613311895
@@ -1116,7 +1144,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.2.1
-    created: 2019-02-11T13:31:32.655793012Z
+    created: "2019-02-11T13:31:32.655793012Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
     digest: 51c66d4115c3865f0c0aad48be485493b0da604cfb0fbd678861e3db58a0cf4e
@@ -1132,7 +1160,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-16T11:51:14.596347518Z
+    created: "2019-01-16T11:51:14.596347518Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
     digest: 3f9e77901efc6c9d3b63c2c0eea9fe6d3bd23966219dc482e0d8ee62e2df16dc
@@ -1148,7 +1176,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-16T09:49:37.367168871Z
+    created: "2019-01-16T09:49:37.367168871Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
     digest: 9c7d069dfdc2dfcf26b808316f7a087ade884e641a85ad5e6b83ce9e37e40374
@@ -1165,7 +1193,7 @@ entries:
   graphite:
   - apiVersion: v1
     appVersion: 1.1.5-4
-    created: 2019-06-29T21:12:35.42478766Z
+    created: "2019-06-29T21:12:35.42478766Z"
     description: Graphite metrics server
     digest: f4a4c9ffe917b920a64595d2f6c0d63774ebe7ad5b764c7993351413bbfcdf31
     home: https://graphiteapp.org/
@@ -1186,7 +1214,7 @@ entries:
     version: 0.3.5
   - apiVersion: v1
     appVersion: 1.1.5-4
-    created: 2019-01-24T10:18:47.283312011Z
+    created: "2019-01-24T10:18:47.283312011Z"
     description: Graphite metrics server
     digest: 88ddccea808a1dda2c5ff875a2b1b564f494ecfe6b5e8e9a9758a50e4aa31653
     home: https://graphiteapp.org/
@@ -1207,7 +1235,7 @@ entries:
     version: 0.3.4
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-16T11:51:14.597063122Z
+    created: "2019-01-16T11:51:14.597063122Z"
     description: Graphite metrics server
     digest: 4f01f966ec1798818d02bf5a56c25d0966748c5f1493a2f17454312893858b00
     home: https://graphiteapp.org/
@@ -1228,7 +1256,7 @@ entries:
     version: 0.3.3
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-16T09:21:10.356279866Z
+    created: "2019-01-16T09:21:10.356279866Z"
     description: Graphite metrics server
     digest: d339c247bf2f02f6ec2b1dd59f9517f87304ae762717626dcb0021109384183b
     home: https://graphiteapp.org/
@@ -1249,7 +1277,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-07T14:20:17.482531794Z
+    created: "2019-01-07T14:20:17.482531794Z"
     description: Graphite metrics server
     digest: cd443dacc5c6c78e736f5fb9e0916ed9cff7932be2784f5d3f53166acdf5f209
     home: https://graphiteapp.org/
@@ -1270,7 +1298,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 1.1.5-3
-    created: 2019-01-07T12:34:26.776016741Z
+    created: "2019-01-07T12:34:26.776016741Z"
     description: Graphite metrics server
     digest: 9bd3c3bdbf5a0189dfb33c6d44f7c6b6b5e3db7a5b80b9b3eb73a6df731c2729
     home: https://graphiteapp.org/
@@ -1292,7 +1320,7 @@ entries:
   hawkbit-update-server:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-07-16T06:04:31.042533173Z
+    created: "2019-07-16T06:04:31.042533173Z"
     description: A Helm chart for hawkbit update server
     digest: a3a702703ea19044434aae00123f2490de52b85f869603193c8ed0ce71d8808c
     home: https://www.eclipse.org/hawkbit/
@@ -1308,7 +1336,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-07-15T14:27:41.588034906Z
+    created: "2019-07-15T14:27:41.588034906Z"
     description: A Helm chart for hawkbit update server
     digest: 5f759bf2deed3b631b8ae93d03bebd89883daa8f9c505e2426654744db17e9c5
     home: https://www.eclipse.org/hawkbit/
@@ -1324,7 +1352,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-06-05T12:03:59.400498924Z
+    created: "2019-06-05T12:03:59.400498924Z"
     description: A Helm chart for hawkbit update server
     digest: afd75cd33bb28861877776d787303a0ab9763488148cef99730c5bd05fa70b75
     home: https://www.eclipse.org/hawkbit/
@@ -1340,7 +1368,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-05-09T13:52:55.777746153Z
+    created: "2019-05-09T13:52:55.777746153Z"
     description: A Helm chart for hawkbit update server
     digest: 46de7d4ab32256f6437935d09aba4af72073dc892fd924beb83c3bb48f5eef68
     home: https://www.eclipse.org/hawkbit/
@@ -1356,7 +1384,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-05-09T08:36:54.621297087Z
+    created: "2019-05-09T08:36:54.621297087Z"
     description: A Helm chart for hawkbit update server
     digest: ecf245167a8f055753a02f727dc1ba887f14378260cec77302d701d119094b97
     home: https://www.eclipse.org/hawkbit/
@@ -1372,7 +1400,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-05-08T15:05:19.903941437Z
+    created: "2019-05-08T15:05:19.903941437Z"
     description: A Helm chart for hawkbit update server
     digest: fc2c5d58c46bd77678a354585ca89a93a37dc42da45f6dab37756aa24a5640ff
     home: https://www.eclipse.org/hawkbit/
@@ -1388,7 +1416,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-04-02T13:13:34.006127362Z
+    created: "2019-04-02T13:13:34.006127362Z"
     description: A Helm chart for hawkbit update server
     digest: 2dd0d87c3be599effd5ce5c7e09f0a62202d8b13f6a1cf47bd82bd93784618aa
     home: https://www.eclipse.org/hawkbit/
@@ -1404,7 +1432,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-03-07T12:43:45.939890543Z
+    created: "2019-03-07T12:43:45.939890543Z"
     description: A Helm chart for hawkbit update server
     digest: c7c182cc0e4edc7fbb95b13cfdede8ea95b72cc226ae998c0f3fd26c1b612617
     home: https://www.eclipse.org/hawkbit/
@@ -1420,7 +1448,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-03-06T14:51:47.623937638Z
+    created: "2019-03-06T14:51:47.623937638Z"
     description: A Helm chart for hawkbit update server
     digest: c97a0b4cea496580318d6b4bbdd7def157ae1dc773aebd72cc60646dde432240
     home: https://www.eclipse.org/hawkbit/
@@ -1436,7 +1464,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-03-06T11:30:44.716451373Z
+    created: "2019-03-06T11:30:44.716451373Z"
     description: A Helm chart for hawkbit update server
     digest: dd4269a49dd75bdb04d60531dd8b5a11207bfaa7add7cb9e841527ec0aac311c
     home: https://www.eclipse.org/hawkbit/
@@ -1452,7 +1480,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-02-11T14:13:18.403624645Z
+    created: "2019-02-11T14:13:18.403624645Z"
     description: A Helm chart for hawkbit update server
     digest: 4640ac2ec67d17e9e9715953bbb59de77c8a25f726291cee1f3f06860243a74d
     home: https://www.eclipse.org/hawkbit/
@@ -1468,7 +1496,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-02-08T08:51:30.893530095Z
+    created: "2019-02-08T08:51:30.893530095Z"
     description: A Helm chart for hawkbit update server
     digest: 03349e21608a6927d440d57b74e3000368e0bec67fff08c0c5cd134a4fd928f1
     home: https://www.eclipse.org/hawkbit/
@@ -1484,7 +1512,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-02-07T16:44:36.642813718Z
+    created: "2019-02-07T16:44:36.642813718Z"
     description: A Helm chart for hawkbit update server
     digest: db2d7d75c50de3a4f7a4d2b3268ad965d6d5f04d6e36cb052ae2171e5ba7a3f1
     home: https://www.eclipse.org/hawkbit/
@@ -1500,7 +1528,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.2.5
-    created: 2019-02-07T14:59:19.828436901Z
+    created: "2019-02-07T14:59:19.828436901Z"
     description: A Helm chart for hawkbit update server
     digest: 1846d2301e8039031667c6599572acbb295a67de631095ecfeb70e6929e393b7
     home: https://www.eclipse.org/hawkbit/
@@ -1517,7 +1545,7 @@ entries:
   ingress-annotator:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2019-05-13T14:52:00.594002692Z
+    created: "2019-05-13T14:52:00.594002692Z"
     description: A Helm chart for ingress annotator controller
     digest: 7cc4d2c504e57c38d6f9f68b62226a8bcf5a5c263c4a4fec608ad7cd8a4447fe
     home: https://github.com/kiwigrid/ingress-annotator
@@ -1532,7 +1560,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2019-05-06T09:21:17.897578115Z
+    created: "2019-05-06T09:21:17.897578115Z"
     description: A Helm chart for ingress annotator controller
     digest: d95d952704e093f8331ef21a6d5d83c6869befa48a42698121ac960d725ddd7e
     home: https://github.com/kiwigrid/ingress-annotator
@@ -1548,7 +1576,7 @@ entries:
   keycloak-client-controller:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2019-04-08T06:56:16.650451147Z
+    created: "2019-04-08T06:56:16.650451147Z"
     description: A Helm chart for a Kubernetes controller to manage Keycloak clients
     digest: b6158163ec3bd629246f74bab8a38387952fbccb63163f877fc8ac20034774da
     home: https://github.com/kiwigrid/keycloak-client-controller
@@ -1564,7 +1592,7 @@ entries:
   keycloak-controller:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-06-18T13:39:20.363349918Z
+    created: "2019-06-18T13:39:20.363349918Z"
     description: A Helm chart for a Kubernetes controller to manage Keycloak clients
       and realms.
     digest: 5537acbe0bb949f4aa61724a7bda7aff8377f0ea775acfb6c23b8a67a6cb7cc6
@@ -1583,7 +1611,7 @@ entries:
   kubernetes-policy-controller:
   - apiVersion: v1
     appVersion: "1.2"
-    created: 2019-01-18T15:04:53.477800989Z
+    created: "2019-01-18T15:04:53.477800989Z"
     description: A Helm chart for Kubernetes Policy Controller and the open policy
       agent to manage your cluster policies
     digest: a2f299de3c494d3c461a712f38527717e7d28e19a0e56ac45e8477c69e9e2bd6
@@ -1601,7 +1629,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.2"
-    created: 2019-01-16T11:51:14.597425906Z
+    created: "2019-01-16T11:51:14.597425906Z"
     description: A Helm chart for Kubernetes Policy Controller and the open policy
       agent to manage your cluster policies
     digest: 5238c707b54a318049791f627768e00a43d9604355e0a60cce8003c5a01f776c
@@ -1620,7 +1648,7 @@ entries:
   prometheus-pingdom-exporter:
   - apiVersion: v1
     appVersion: 20180821-1
-    created: 2019-01-16T11:51:14.597757044Z
+    created: "2019-01-16T11:51:14.597757044Z"
     description: A Helm chart for Prometheus Pingdom Exporter
     digest: a44d1b56c7f72a668168968754f589503255d98f2729771ed70fc9c356999d38
     home: https://github.com/giantswarm/prometheus-pingdom-exporter
@@ -1641,7 +1669,7 @@ entries:
   prometheus-thanos:
   - apiVersion: v1
     appVersion: 0.6.0
-    created: 2019-07-25T08:59:11.276123906Z
+    created: "2019-07-25T08:59:11.276123906Z"
     description: A Helm chart for thanos monitoring components
     digest: a2d2d85e9a582dde86cee424c23b567c148aa5ee6710b37289be9e95dd656140
     home: https://github.com/thanos-io/thanos
@@ -1660,7 +1688,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 0.6.0
-    created: 2019-07-22T07:24:20.249061233Z
+    created: "2019-07-22T07:24:20.249061233Z"
     description: A Helm chart for thanos monitoring components
     digest: d94ddd6baf70dadf71d922fe1764f7a6dee69cf320a890908e74992d9a69cf3b
     home: https://github.com/thanos-io/thanos
@@ -1679,7 +1707,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2019-07-11T09:14:44.115753277Z
+    created: "2019-07-11T09:14:44.115753277Z"
     description: A Helm chart for thanos monitoring components
     digest: af7a0d16b4ce7f081c188aa635afc7681de65b63fab51c0bd1fb2c20dfa28563
     home: https://github.com/improbable-eng/thanos
@@ -1698,7 +1726,7 @@ entries:
     version: 1.1.3
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2019-07-10T06:50:47.130698698Z
+    created: "2019-07-10T06:50:47.130698698Z"
     description: A Helm chart for thanos monitoring components
     digest: 848bc92646b5b8a7dfe36da61a406795cbe3f7d2fee767937a762ec5a7e46a7e
     home: https://github.com/improbable-eng/thanos
@@ -1717,7 +1745,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2019-07-09T13:47:56.745925889Z
+    created: "2019-07-09T13:47:56.745925889Z"
     description: A Helm chart for thanos monitoring components
     digest: e7f2856ce5fa66b33140061ee988e53e62b8ffe770df37f6df5602014a50213d
     home: https://github.com/improbable-eng/thanos
@@ -1736,7 +1764,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2019-06-11T12:13:55.583687119Z
+    created: "2019-06-11T12:13:55.583687119Z"
     description: A Helm chart for thanos monitoring components
     digest: 9d1e93639e56bfecf7d12705d6cfc6e8756fe482a79715814080cf969e670e37
     home: https://github.com/improbable-eng/thanos
@@ -1751,7 +1779,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2019-06-11T11:37:53.01731556Z
+    created: "2019-06-11T11:37:53.01731556Z"
     description: A Helm chart for thanos monitoring components
     digest: 329cfab403c0d7d08490e65f96eaf3c96821faa33404ce8ab9eef96336b14c15
     home: https://github.com/improbable-eng/thanos
@@ -1766,7 +1794,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2019-06-04T12:52:59.396885695Z
+    created: "2019-06-04T12:52:59.396885695Z"
     description: A Helm chart for thanos monitoring components
     digest: cfb19b260baadb6bf763e4aafee05e4cf9a07a8e009a6baae4d8cd68f925a380
     home: https://github.com/improbable-eng/thanos
@@ -1781,7 +1809,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2019-06-04T09:02:47.071770918Z
+    created: "2019-06-04T09:02:47.071770918Z"
     description: A Helm chart for thanos monitoring components
     digest: 62a7bc32adfc43af057468dea7d48996511d6c72551a36eaf26abe2ce67d0b95
     home: https://github.com/improbable-eng/thanos
@@ -1796,7 +1824,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2019-05-24T11:09:47.550551899Z
+    created: "2019-05-24T11:09:47.550551899Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 217396bc842da0883c7908998c61b5e849e3c1dd674d1a8beb87b81b74c26a04
     home: https://github.com/improbable-eng/thanos
@@ -1811,7 +1839,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2019-05-08T13:43:20.237031165Z
+    created: "2019-05-08T13:43:20.237031165Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 0c4062f559b1a5f840c0f24677caf0473dad1c97a720682b2d9c22e762ef3d94
     home: https://github.com/improbable-eng/thanos
@@ -1826,7 +1854,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-05-02T13:06:42.352805508Z
+    created: "2019-05-02T13:06:42.352805508Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 759e42fd5ce609a7726a4aa58f37fbf21e4e90852c66b011bfe65d5aabac0258
     home: https://github.com/improbable-eng/thanos
@@ -1841,7 +1869,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-04-12T14:32:45.819447317Z
+    created: "2019-04-12T14:32:45.819447317Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 6552ef1fec0ead2730039ca60b9e5728a2f33359d139a140b65437922c0d3ca1
     home: https://github.com/improbable-eng/thanos
@@ -1856,7 +1884,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-04-12T09:53:30.575145612Z
+    created: "2019-04-12T09:53:30.575145612Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 9e7004535f20aa61343b3fe2489561ef393b2ee00bcc915ea904b39e3ceff006
     home: https://github.com/improbable-eng/thanos
@@ -1871,7 +1899,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-04-12T06:45:26.733948623Z
+    created: "2019-04-12T06:45:26.733948623Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 63cbed0aa50016bc55dc2d714c37d969038c65bb38107ef7fd79378df0fff009
     home: https://github.com/improbable-eng/thanos
@@ -1886,7 +1914,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-04-05T11:50:41.693755791Z
+    created: "2019-04-05T11:50:41.693755791Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 33f419545e4c41cd81689a0e9af59b64546ec7c8aed5623cef6f345e5e1c81da
     home: https://github.com/improbable-eng/thanos
@@ -1901,7 +1929,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-04-05T07:29:25.64665337Z
+    created: "2019-04-05T07:29:25.64665337Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 72c35a42e800cbff04cd56696c37866e7f1ce0caa8d4edf20272d386f92eb764
     home: https://github.com/improbable-eng/thanos
@@ -1916,7 +1944,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.3.2
-    created: 2019-03-28T15:10:25.479822418Z
+    created: "2019-03-28T15:10:25.479822418Z"
     description: A Helm chart for thanos querier and store gateway
     digest: 52eeff2c0ec53d94071dcac3833136c61b2b54c4fb05d30bc22fcae615818942
     home: https://github.com/improbable-eng/thanos
@@ -1932,7 +1960,7 @@ entries:
   pull-secret-distributor:
   - apiVersion: v1
     appVersion: "25"
-    created: 2019-02-11T20:50:35.261701997Z
+    created: "2019-02-11T20:50:35.261701997Z"
     deprecated: true
     description: A Helm chart to distribute pull secret across namespaces
     digest: 2b49cc76b5c463f18e26f2fc5e4816fcdafbddedad60dac61768d0afc95060e4
@@ -1945,7 +1973,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: "25"
-    created: 2019-01-18T13:46:33.992080956Z
+    created: "2019-01-18T13:46:33.992080956Z"
     description: A Helm chart to distribute pull secret across namespaces
     digest: 341851d0ad4b9deb89b0f6d39080e90a37a146dfec0791f8473856bae798cb55
     home: https://github.com/kiwigrid/pull-secret-distributor
@@ -1960,7 +1988,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "15"
-    created: 2019-01-16T11:51:14.598051683Z
+    created: "2019-01-16T11:51:14.598051683Z"
     description: A Helm chart to distribute pull secret across namespaces
     digest: 3de7b7d6bbc6020b5c037d930a66b32f906040b3056a513a9a2042c5a31d924b
     home: https://github.com/kiwigrid/pull-secret-distributor
@@ -1975,7 +2003,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "10"
-    created: 2019-01-15T13:51:24.325304396Z
+    created: "2019-01-15T13:51:24.325304396Z"
     description: A Helm chart to distribute pull secret across namespaces
     digest: cda02baf9fceb3a78936464f6ef08b12406b0621d04d235aa6e2a3b3493e7cac
     home: https://github.com/kiwigrid/pull-secret-distributor
@@ -1991,7 +2019,7 @@ entries:
   secret-replicator:
   - apiVersion: v1
     appVersion: 0.1.1
-    created: 2019-04-08T12:41:19.288684543Z
+    created: "2019-04-08T12:41:19.288684543Z"
     description: A Helm chart to replicate secret across namespaces
     digest: a833d561045e38038d4190d8bbcd518beb601737943e689376c6d983e38ec125
     home: https://github.com/kiwigrid/secret-replicator
@@ -2006,7 +2034,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2019-02-11T14:49:51.865693302Z
+    created: "2019-02-11T14:49:51.865693302Z"
     description: A Helm chart to replicate secret across namespaces
     digest: b8b723c9ca498006d9b1a3ef19c6b5420214a29038dddf656a09f0a1f802277b
     home: https://github.com/kiwigrid/secret-replicator
@@ -2022,7 +2050,7 @@ entries:
   stackdriver-exporter:
   - apiVersion: v1
     appVersion: 0.6.0
-    created: 2019-03-12T13:00:19.803777074Z
+    created: "2019-03-12T13:00:19.803777074Z"
     description: A Helm chart for exporting stackdriver metrics to prometheus
     digest: fcdc52c3ce5cd5108c7ecfe208a544b2b1848cf2b462f4699f1e8b2c26d66993
     home: https://github.com/frodenas/stackdriver_exporter
@@ -2037,7 +2065,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.6.0
-    created: 2019-03-12T12:16:34.17155551Z
+    created: "2019-03-12T12:16:34.17155551Z"
     description: A Helm chart for exporting stackdriver metrics to prometheus
     digest: af28a2df3a937dec28cf0ad902cd20916c45e2e7e82c9ec6813b9f88f282931f
     home: https://github.com/frodenas/stackdriver_exporter
@@ -2052,7 +2080,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.6.0
-    created: 2019-03-06T09:55:45.125455593Z
+    created: "2019-03-06T09:55:45.125455593Z"
     description: A Helm chart for exporting stackdriver metrics to prometheus
     digest: 3fe6ba2d1b9f840f64bd0f5ed14b09abf683fb731bc58b018029ded9d630e1c9
     home: https://github.com/frodenas/stackdriver_exporter
@@ -2068,7 +2096,7 @@ entries:
   zipkin-stackdriver-proxy:
   - apiVersion: v1
     appVersion: v0.6.0
-    created: 2019-01-18T16:32:33.25559843Z
+    created: "2019-01-18T16:32:33.25559843Z"
     description: A Helm chart for Zipkin Stackdriver proxy
     digest: a34c9e2b06098b755fc6b5c2bfa0580a8dd68a171dda70334d84548a8379f035
     home: https://github.com/openzipkin/zipkin-gcp
@@ -2081,4 +2109,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: 2019-07-25T08:59:11.273957091Z
+generated: "2019-07-26T22:25:29.723759077Z"
