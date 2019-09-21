@@ -1963,6 +1963,26 @@ entries:
   prometheus-pingdom-exporter:
   - apiVersion: v1
     appVersion: 20180821-1
+    created: "2019-09-21T14:17:04.41551093Z"
+    description: A Helm chart for Prometheus Pingdom Exporter
+    digest: 591dee80d0a4a521d2e69bbae5489e1da947301f2cdb81d08d9e6f557dd197d3
+    home: https://github.com/giantswarm/prometheus-pingdom-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - pingdom
+    maintainers:
+    - email: hanjo.meinhardt@kiwigrid.com
+      name: bunix42
+    name: prometheus-pingdom-exporter
+    sources:
+    - https://github.com/giantswarm/prometheus-pingdom-exporter
+    - https://github.com/camptocamp/prometheus-pingdom-exporter
+    urls:
+    - https://kiwigrid.github.io/prometheus-pingdom-exporter-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
+    appVersion: 20180821-1
     created: "2019-01-16T11:51:14.597757044Z"
     description: A Helm chart for Prometheus Pingdom Exporter
     digest: a44d1b56c7f72a668168968754f589503255d98f2729771ed70fc9c356999d38
@@ -2555,4 +2575,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-21T12:25:23.370820721Z"
+generated: "2019-09-21T14:17:04.415017565Z"
