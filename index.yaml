@@ -17,6 +17,23 @@ entries:
   ditto-digital-twins:
   - apiVersion: v1
     appVersion: 0.9.0
+    created: "2019-11-16T11:00:43.057735119Z"
+    description: A Helm chart for Eclipse Ditto
+    digest: 4d04b1f4d8392526174370f33d43490a46824d597265551a24da8136090218ff
+    home: www.eclipse.org/ditto
+    icon: https://www.eclipse.org/ditto/images/ditto.svg
+    maintainers:
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: ditto-digital-twins
+    sources:
+    - https://github.com/eclipse/ditto
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/ditto-digital-twins
+    urls:
+    - https://kiwigrid.github.io/ditto-digital-twins-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2019-11-14T14:28:30.011903954Z"
     description: A Helm chart for Eclipse Ditto
     digest: ff8a6c17dbc5c0fc9c834ac4aaf0293730640bc3a040242f3ab03f928573a748
@@ -3174,4 +3191,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-14T16:47:32.087044156Z"
+generated: "2019-11-16T11:00:43.05434528Z"
