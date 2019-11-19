@@ -83,6 +83,23 @@ entries:
     urls:
     - https://kiwigrid.github.io/ditto-digital-twins-0.1.0.tgz
     version: 0.1.0
+  enmasse:
+  - apiVersion: v1
+    appVersion: 0.30.1
+    created: "2019-11-19T07:56:51.808333115Z"
+    description: A Helm chart for enmasse
+    digest: a671a11c2253755ec8d1dacd95410c3f6f5656ef98fc28ae96bf7d7aa9eda830
+    home: https://enmasse.io/
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: enmasse
+    sources:
+    - https://github.com/EnMasseProject/enmasse
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/enmasse
+    urls:
+    - https://kiwigrid.github.io/enmasse-0.1.0.tgz
+    version: 0.1.0
   enmasse-crd:
   - apiVersion: v1
     appVersion: 0.30.1
@@ -3225,4 +3242,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-18T15:35:33.458461708Z"
+generated: "2019-11-19T07:56:51.807400246Z"
