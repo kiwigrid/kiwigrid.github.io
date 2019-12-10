@@ -2581,6 +2581,25 @@ entries:
     version: 0.1.0
   keycloak-controller:
   - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2019-12-10T13:39:01.148496207Z"
+    description: A Helm chart for a Kubernetes controller to manage Keycloak clients
+      and realms.
+    digest: bd4c717bb060525d416f8e57b7a554fc1254232c26e652372d2b4c37dfa85eda
+    home: https://github.com/kiwigrid/keycloak-controller
+    maintainers:
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: stephan.schnabel@kiwigrid.com
+      name: sschnabe
+    name: keycloak-controller
+    sources:
+    - https://github.com/kiwigrid/keycloak-controller
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/keycloak-controller
+    urls:
+    - https://kiwigrid.github.io/keycloak-controller-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v1
     appVersion: 1.2.0
     created: "2019-11-06T06:46:14.772385033Z"
     description: A Helm chart for a Kubernetes controller to manage Keycloak clients
@@ -3422,4 +3441,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-10T10:26:48.302810951Z"
+generated: "2019-12-10T13:39:01.147963906Z"
