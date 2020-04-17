@@ -219,6 +219,34 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 3.0.0
+    created: "2020-04-17T19:12:08.939105545Z"
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: 6440b099d7fc2abc979463c7ea85d59a8ffaf926817142ace3c96c095c35b3de
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://kiwigrid.github.io/fluentd-elasticsearch-6.3.0.tgz
+    version: 6.3.0
+  - apiVersion: v1
+    appVersion: 3.0.0
     created: "2020-04-11T23:22:04.876404651Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 9726fe8e3a98b1a6b2eb8ee991df8c7211ea8d91747730c253eb6971942ba5f2
@@ -4297,4 +4325,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-17T13:03:41.161386544Z"
+generated: "2020-04-17T19:12:08.938160445Z"
