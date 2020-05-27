@@ -3185,6 +3185,24 @@ entries:
     urls:
     - https://kiwigrid.github.io/hawkbit-update-server-0.1.0.tgz
     version: 0.1.0
+  influxdb-backup:
+  - apiVersion: v1
+    appVersion: 1.7.10
+    created: "2020-05-27T09:08:16.297758772Z"
+    description: InfluxDB backup Helm chart for Kubernetes
+    digest: 9cc891010a7a9bc8e6a81953ae3362676ef15f2a2a0173becae3ac6c726109e8
+    home: https://www.influxdata.com
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/512px-Influxdb_logo.svg.png
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: influxdb-backup
+    sources:
+    - https://github.com/kiwigrid/helm-charts
+    - https://github.com/influxdata/influxdb
+    urls:
+    - https://kiwigrid.github.io/influxdb-backup-0.1.0.tgz
+    version: 0.1.0
   ingress-annotator:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -4561,4 +4579,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-26T14:36:45.699896665Z"
+generated: "2020-05-27T09:08:16.297119041Z"
