@@ -3188,6 +3188,23 @@ entries:
   influxdb-backup:
   - apiVersion: v1
     appVersion: 1.7.10
+    created: "2020-05-28T16:53:51.289979388Z"
+    description: InfluxDB backup Helm chart for Kubernetes
+    digest: 2e98696062e60beb8cd70a6a6a4460a3df387f4308723b0ef0e6b95bbd8c6d6d
+    home: https://www.influxdata.com
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/512px-Influxdb_logo.svg.png
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: influxdb-backup
+    sources:
+    - https://github.com/kiwigrid/helm-charts
+    - https://github.com/influxdata/influxdb
+    urls:
+    - https://kiwigrid.github.io/influxdb-backup-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: 1.7.10
     created: "2020-05-27T11:36:23.688368192Z"
     description: InfluxDB backup Helm chart for Kubernetes
     digest: 480ca3e04ceb0e9d96b9813af15966b18879c59eee8b5c593a435cc7087fcbaa
@@ -4596,4 +4613,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-27T11:36:23.687808393Z"
+generated: "2020-05-28T16:53:51.289187087Z"
