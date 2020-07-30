@@ -2920,6 +2920,22 @@ entries:
     urls:
     - https://kiwigrid.github.io/gcp-serviceaccount-controller-0.1.0.tgz
     version: 0.1.0
+  grafana-dashboards:
+  - apiVersion: v1
+    created: "2020-07-30T15:40:24.102584786Z"
+    description: A Helm chart to import Grafana Dashboards
+    digest: 9bcebfeeae30e3a4ae0444432653608df9072ce87179871047522cb203933601
+    home: https://github.com/kiwigrid/helm-charts
+    icon: https://grafana.com/blog/assets/img/blog/timeshift/grafana_release_icon.png
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: grafana-dashboards
+    sources:
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/grafana-dashboards
+    urls:
+    - https://kiwigrid.github.io/grafana-dashboards-0.1.0.tgz
+    version: 0.1.0
   graphite:
   - apiVersion: v1
     appVersion: 1.1.5-4
@@ -4986,4 +5002,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-18T23:26:13.917966836Z"
+generated: "2020-07-30T15:40:24.101838085Z"
