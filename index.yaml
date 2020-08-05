@@ -2922,6 +2922,21 @@ entries:
     version: 0.1.0
   grafana-dashboards:
   - apiVersion: v1
+    created: "2020-08-05T20:01:53.564528833Z"
+    description: A Helm chart to import Grafana Dashboards
+    digest: 114ac9c5275da210d012b7de74574ff9c31877c1ab81e7a6009f7d20056fb43b
+    home: https://github.com/kiwigrid/helm-charts
+    icon: https://grafana.com/blog/assets/img/blog/timeshift/grafana_release_icon.png
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: grafana-dashboards
+    sources:
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/grafana-dashboards
+    urls:
+    - https://kiwigrid.github.io/grafana-dashboards-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     created: "2020-07-30T15:40:24.102584786Z"
     description: A Helm chart to import Grafana Dashboards
     digest: 9bcebfeeae30e3a4ae0444432653608df9072ce87179871047522cb203933601
@@ -5002,4 +5017,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-30T15:40:24.101838085Z"
+generated: "2020-08-05T20:01:53.563437703Z"
