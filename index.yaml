@@ -2953,6 +2953,27 @@ entries:
     version: 0.1.0
   graphite:
   - apiVersion: v1
+    appVersion: 1.1.7-6
+    created: "2020-08-19T15:39:56.920585989Z"
+    description: Graphite metrics server
+    digest: a8ad6625fab8374420faad03f6b67dd72959beb2823f61a472a24033a25dee52
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    urls:
+    - https://kiwigrid.github.io/graphite-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
     appVersion: 1.1.5-4
     created: "2020-05-05T20:08:43.994645854Z"
     description: Graphite metrics server
@@ -5017,4 +5038,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-05T20:01:53.563437703Z"
+generated: "2020-08-19T15:39:56.919680686Z"
