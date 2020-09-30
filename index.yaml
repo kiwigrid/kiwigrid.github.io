@@ -3835,6 +3835,24 @@ entries:
   kubernetes-policy-controller:
   - apiVersion: v1
     appVersion: "1.2"
+    created: "2020-09-30T14:28:24.322758949Z"
+    description: A Helm chart for Kubernetes Policy Controller and the open policy
+      agent to manage your cluster policies
+    digest: 8a3434e55e0329395872d57a8162bb49623032071c1988d787fad771c37161f7
+    home: https://github.com/kiwigrid/helm-charts
+    icon: https://www.openpolicyagent.org/img/opa-logo.svg
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: kubernetes-policy-controller
+    sources:
+    - https://github.com/open-policy-agent/kubernetes-policy-controller
+    - https://github.com/open-policy-agent/opa
+    urls:
+    - https://kiwigrid.github.io/kubernetes-policy-controller-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.2"
     created: "2019-01-18T15:04:53.477800989Z"
     description: A Helm chart for Kubernetes Policy Controller and the open policy
       agent to manage your cluster policies
@@ -5066,4 +5084,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-28T12:53:02.837641778Z"
+generated: "2020-09-30T14:28:24.322180234Z"
