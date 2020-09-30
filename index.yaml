@@ -234,6 +234,30 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 3.0.4
+    created: "2020-09-30T18:35:49.499512189Z"
+    deprecated: true
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: 7237c16044dc0d2a34113d3c7266678c3257ba463376d1d2c13501893d60106d
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://kiwigrid.github.io/fluentd-elasticsearch-9.6.2.tgz
+    version: 9.6.2
+  - apiVersion: v1
+    appVersion: 3.0.4
     created: "2020-09-28T12:53:02.838914386Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: 665aeb924b79dddf73b2899092d982289a77ec9a66c52cd40ae8ae8cf9280071
@@ -2837,6 +2861,22 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: 0.2.4
+    created: "2020-09-30T18:35:49.500047009Z"
+    description: A Helm chart for a Kubernetes Controller to create secrets for GCP
+      Service Accounts
+    digest: 004a13893369ad9d370288888c0ba0bfbe1e572196c107564aec7f47c1df8243
+    home: https://github.com/kiwigrid/gcp-serviceaccount-controller
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: gcp-serviceaccount-controller
+    sources:
+    - https://github.com/kiwigrid/gcp-serviceaccount-controller
+    urls:
+    - https://kiwigrid.github.io/gcp-serviceaccount-controller-0.2.6.tgz
+    version: 0.2.6
+  - apiVersion: v1
+    appVersion: 0.2.4
     created: "2019-10-29T15:29:43.678866616Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
@@ -5155,4 +5195,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-30T15:43:40.623768567Z"
+generated: "2020-09-30T18:35:49.498336245Z"
