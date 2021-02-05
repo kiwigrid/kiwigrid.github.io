@@ -2876,6 +2876,22 @@ entries:
   gcp-serviceaccount-controller:
   - apiVersion: v1
     appVersion: 0.3.0
+    created: "2021-02-05T08:22:39.11495923Z"
+    description: A Helm chart for a Kubernetes Controller to create secrets for GCP
+      Service Accounts
+    digest: 09ed6a2a314dbdc5181efbabd3c0ee7b4e41ef685780f0d033bbaf2d30e2a017
+    home: https://github.com/kiwigrid/gcp-serviceaccount-controller
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: gcp-serviceaccount-controller
+    sources:
+    - https://github.com/kiwigrid/gcp-serviceaccount-controller
+    urls:
+    - https://kiwigrid.github.io/gcp-serviceaccount-controller-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    appVersion: 0.3.0
     created: "2021-02-04T11:00:29.329653755Z"
     description: A Helm chart for a Kubernetes Controller to create secrets for GCP
       Service Accounts
@@ -5353,4 +5369,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-04T11:00:29.329175153Z"
+generated: "2021-02-05T08:22:39.114202589Z"
