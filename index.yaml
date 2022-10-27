@@ -203,6 +203,21 @@ entries:
   error-pages:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-10-27T05:39:23.262552729Z"
+    description: A Helm chart for Kubernetes error pages for traefik
+    digest: 700042ab2abce799bbf2799ccd5e65481c9897492a8fa0570f894a6f2364dce8
+    home: https://github.com/kiwigrid/helm-charts
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: error-pages
+    sources:
+    - https://github.com/kiwigrid/helm-charts
+    urls:
+    - https://kiwigrid.github.io/error-pages-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2020-10-02T08:23:31.447866932Z"
     description: A Helm chart for Kubernetes error pages for traefik
     digest: 207820999df0b706562d082469bb7d60ad337700d97c2b596addd876bf149142
@@ -5650,4 +5665,4 @@ entries:
     urls:
     - https://kiwigrid.github.io/zipkin-stackdriver-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-25T08:02:49.029342717Z"
+generated: "2022-10-27T05:39:23.262075493Z"
